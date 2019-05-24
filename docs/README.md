@@ -1,32 +1,34 @@
-# AxChange
+# Ax Change
 
 > ISV solution for Dynamics 365 for Finance and Operations products for simplifying the integration process with third-party web-services
 
 ## What it is
 
-docsify generates your documentation website on the fly. Unlike GitBook, it does not generate static html files. Instead, it smartly loads and parses your Markdown files and displays them as a website. To start using it, all you need to do is create an `index.html` and [deploy it on GitHub Pages](deploy.md).
+`AxChange` is a universal solution for configuring integration processes with third-party web services.
+Unlike the traditional integration tools of the `Dynamics 365 for Finance and Operations` system with third-party products, AxChange does not require modifications by developers. This is a new approach to integrating products `Dynamics 365`, where the initiator of integration is the system itself, and not another service.
+To start using it, just get the solution and configure the mapping structure and request to send to a third-party service.
 
 See the [Quick start](quickstart.md) guide for more details.
 
 ## Features
 
-- No statically built html files
-- Simple and lightweight (~21kB gzipped)
-- Smart full-text search plugin
-- Multiple themes
-- Useful plugin API
-- Emoji support
-- Compatible with IE11
-- Support server-side rendering ([example](https://github.com/docsifyjs/docsify-ssr-demo))
-
-## Examples
-
-Check out the [Showcase](https://github.com/docsifyjs/awesome-docsify#showcase) to see docsify in use.
-
-## Donate
-
-Please consider donating if you think docsify is helpful to you or that my work is valuable. I am happy if you can help me [buy a cup of coffee](https://github.com/QingWei-Li/donate). :heart:
-
-## Community
-
-Users and the development team are usually in the [Gitter chat room](https://gitter.im/docsifyjs/Lobby).
+- Supports HTTP / HTTPS protocols
+- Create your own dynamic structures related to Entity
+- Creating requests
+    - With different methods: GET | POST | PUT | PATCH | DELETE
+    - With different content types: fom-data | text | form-urlencoded | binary
+- Support for importing data received in response
+    - With Data management
+    - By writing using standard Entity
+- Support for request authorization
+    - Basic
+    - Bearer
+    - Using cookie
+    - Based on data from another request
+- Creating actions for received response
+    - Import data
+    - Sending a new request
+- Adding headers manually to the request
+- Use of certificates
+- Maintaining the history of requests and response
+- Logging of internal processes

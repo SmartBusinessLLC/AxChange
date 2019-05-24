@@ -5,7 +5,8 @@
 - Requests
 
   - [Request group](requestGroup.md)
+  - [Request parameter](requestParameter.md)
 
 - Mapping
 
-  - [Configuration](quickstart.md)
+  - [Configuration](mapping.md)

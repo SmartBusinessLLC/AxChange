@@ -9,4 +9,4 @@
 - Dynamically integration structure
 
 [Smart-It](https://smart-it.com/)
-[Getting Started](#AxChange)
+[Getting Started](#ax-change)

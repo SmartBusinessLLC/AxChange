@@ -27,44 +27,13 @@
       coverpage: true,
       mergeNavbar: true,
       name: "Ax Change",
+      relativePath: true,
       repo: "https://github.com/SmartBusinessLLC/AxChange",
-
-      //FULL-TEXT Search
-      search: "auto", // default
-      search: [
-        "/", // => /README.md
-        "/guide", // => /guide.md
-        "/get-started", // => /get-started.md
-        "/zh-cn/" // => /zh-cn/README.md
-      ],
-      // complete configuration parameters
-      search: {
-        maxAge: 86400000, // Expiration time, the default one day
-        paths: [], // or 'auto'
-        placeholder: "Type to search",
-        // Localization
-        placeholder: {
-          "/zh-cn/": "搜索",
-          "/": "Type to search"
-        },
-        noData: "No Results!",
-        // Localization
-        noData: {
-          "/zh-cn/": "找不到结果",
-          "/": "No Results"
-        },
-        // Headline depth, 1 - 6
-        depth: 2,
-        hideOtherSidebarContent: false, // whether or not to hide other sidebar content
-        // To avoid search index collision
-        // between multiple websites under the same domain
-        namespace: "website-1"
-      }
+      subMaxLevel: 3,
     };
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-  <script src="https://smartbusinessllc.github.io/AxChange/scripts/emoji_with_ua.js"></script>
+  <script src="./scripts/emoji_with_ua.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
 </body>
 

@@ -10,11 +10,9 @@
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
   <link type="image/x-icon" rel="shortcut icon" href="_media/favicon.ico" />
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
-  <!-- Theme: Simple 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"
-    />-->
+  <!--Start-- Edit on GitHub plugin-->
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+  <!--End-- Edit on GitHub plugin-->
 </head>
 
 <body>
@@ -30,11 +28,32 @@
       relativePath: true,
       repo: "https://github.com/SmartBusinessLLC/AxChange",
       subMaxLevel: 3,
+
+      //--Start-- Edit on GitHub plugin
+      plugins: [
+        EditOnGithubPlugin.create("https://github.com/SmartBusinessLLC/AxChange/tree/master/docs/")
+      ],
+      //--End-- Edit on GitHub plugin
+
+      //--Start-- Full text search plugin
+      search: 'auto', // default
+      search: {
+        placeholder: 'Type to search',
+        noData: 'No Results',
+        paths: 'auto',
+        depth: 6,
+        hideOtherSidebarContent: true,
+        namespace: 'axchange',
+      },
+      //--End-- Full text search plugin
     };
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="./scripts/emoji_with_ua.js"></script>
+  <!--Start-- Full text search plugin-->
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <!--End-- Full text search plugin-->
   <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="./scripts/emoji_with_ua.js"></script>
 </body>
 
 </html>

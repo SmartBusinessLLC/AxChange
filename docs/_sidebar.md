@@ -24,6 +24,11 @@
 
   - [Actions](actions.md)
 
+- History
+
+  - [Request history](requestHistory.md)
+  - [Response history](responseHistory.md)
+
 - Mapping
 
   - [Mapping](mapping.md)

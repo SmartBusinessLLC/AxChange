@@ -16,7 +16,7 @@ See the [Quick start](quickstart.md) guide for more details.
 - Create your own dynamic structures related to Entity
 - Creating requests
     - With different methods: GET | POST | PUT | PATCH | DELETE
-    - With different content types: fom-data | text | form-urlencoded | binary
+    - With different content types: form-data | text | form-urlencoded | binary
 - Support for importing data received in response
     - With Data management
     - By writing using standard Entity

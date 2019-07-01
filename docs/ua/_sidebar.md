@@ -43,11 +43,11 @@
 
 - Логування
 
-  - [Налаштування](/ua/mapping.md)
-  - [Сховище логів](/ua/mapping.md)
-  - [Періодичні операції](/ua/mapping.md)
+  - [Налаштування](/ua/log_setup.md)
+  - [Сховище логів](/ua/log_storage.md)
+  - [Періодичні операції](/ua/log_period.md)
 
 - Події
 
-  - [Налаштування](/ua/mapping.md)
-  - [Исторія подій](/ua/mapping.md)
+  - [Налаштування](/ua/event_setup.md)
+  - [Історія подій](/ua/event_history.md)

@@ -39,7 +39,7 @@
         - [Додаткові налаштування](/ua/mapping_export_basic_add.md)
         - [Налаштування з динамічною схемою](/ua/mapping_export_dynamics_shema.md)
     - [Імпорт](/ua/mapping_import.md)
-    - [DMF Імпорт](/ua/mapping_dmfimport.md)
+    - [DMF Імпорт](/ua/mapping_dmfImport.md)
 
 - Логування
 
